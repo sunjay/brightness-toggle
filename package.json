@@ -1,0 +1,31 @@
+{
+  "name": "brightness-toggle",
+  "version": "1.0.0",
+  "description": "Toggle the screen brightness on/off",
+  "main": "index.js",
+  "bin": {
+    "brightness-toggle": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brightness",
+    "toggle"
+  ],
+  "author": "Sunjay Varma <sunjay.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "brightness": "^3.0.0",
+    "just-promiseify": "^1.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sunjay/brightness-toggle/issues"
+  },
+  "homepage": "https://github.com/sunjay/brightness-toggle#readme",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunjay/brightness-toggle.git"
+  }
+}
